@@ -9,7 +9,7 @@ const popularBurgers = [
     id: 1,
     name: 'Flame Master',
     price: '180 ETB',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/deliciously-crispy-chicken-burger-hd-transparent-background-735811696679380g5lchfibmf-gjK94dIPLAKT083qL72h7JgFnIGmXw.png',
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/deliciously-crispy-chicken-burger-hd-transparent-background-735811696679380g5lchfibmf-removebg-preview-Gkzk0Wz6GwYzdMLrfmJEvQFC2Z7SYZ.png',
     badge: 'Best Seller',
     isBestSeller: true,
   },
@@ -17,7 +17,7 @@ const popularBurgers = [
     id: 2,
     name: 'Double Cheesy',
     price: '200 ETB',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Delicious--grilled-burger-on-wooden-plate-on-transparent-background-PNG-yMoFMK63QstgoT2ZxQINF9QHh2cbog.png',
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Delicious--grilled-burger-on-wooden-plate-on-transparent-background-PNG-removebg-preview-aSnNgDTnVGbmOF5GMHEdmyXFmUDB8k.png',
     badge: 'Popular',
     isBestSeller: false,
   },
@@ -25,16 +25,16 @@ const popularBurgers = [
     id: 3,
     name: 'Spicy Inferno',
     price: '190 ETB',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pngtree-close-up-of-burger-png-image_15955071-JfoxC4F6xJoVVukSiD67HHFJogrQpI.png',
+    image: '/spicy-inferno.jpg',
     badge: 'Hot Pick',
     isBestSeller: false,
   },
   {
     id: 4,
-    name: 'Classic Burger',
-    price: '150 ETB',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/deliciously-crispy-chicken-burger-hd-transparent-background-735811696679380g5lchfibmf-gjK94dIPLAKT083qL72h7JgFnIGmXw.png',
-    badge: 'Classic',
+    name: 'Combo Delight',
+    price: '250 ETB',
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hd-png-hamburger-meal-with-soda-and-french-fries-701751710849813pm6pyhly5j-removebg-preview-ILf0AxltaWmL1LfUx70nfzTO92VZyZ.png',
+    badge: 'Popular',
     isBestSeller: false,
   },
 ]
@@ -43,7 +43,7 @@ export default function PopularMenu() {
   const [hoveredId, setHoveredId] = useState<number | null>(null)
 
   return (
-    <section id="menu" className="py-20 px-4 sm:px-6 lg:px-8 bg-background">
+    <section id="menu" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black mb-4 text-foreground">

@@ -23,7 +23,7 @@ export default function About() {
   ]
 
   return (
-    <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-background">
+    <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left - Image */}
@@ -31,7 +31,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-radial from-accent/15 to-transparent rounded-3xl blur-3xl"></div>
             <div className="relative w-full max-h-96">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hd-png-hamburger-meal-with-soda-and-french-fries-701751710849813pm6pyhly5j-3JBCTudeSsP20L2eKTtQb2VzXzpbuf.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hd-png-hamburger-meal-with-soda-and-french-fries-701751710849813pm6pyhly5j-removebg-preview-ILf0AxltaWmL1LfUx70nfzTO92VZyZ.png"
                 alt="Burger meal with fries and drink"
                 width={400}
                 height={400}

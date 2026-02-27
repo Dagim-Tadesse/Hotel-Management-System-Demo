@@ -119,17 +119,15 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground;
+  
+  html, body {
+    background: linear-gradient(180deg, #2d1a1a 0%, #1f1a1f 30%, #1a1a2e 60%, #1f1a24 100%);
+    min-height: 100vh;
+    background-attachment: fixed;
   }
-
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
+  
+  body {
+    @apply text-foreground;
   }
 
   @keyframes glow {
@@ -151,10 +149,6 @@
     100% {
       opacity: 0;
     }
-  }
-
-  .animate-bounce {
-    animation: bounce 3s infinite;
   }
 
   .animate-glow {
