@@ -41,10 +41,10 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-radial from-accent/20 to-transparent rounded-full blur-2xl"></div>
             <div className="relative w-full h-full max-h-96 md:max-h-none flex items-center justify-center">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pngtree-close-up-of-burger-png-image_15955071-removebg-preview-gWiontjBRiJaQAIijaQSRc6XrVpyZL.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hero-esEpgYiTW9RaoBkEVL0zZQbXfrIqBw.png"
                 alt="Premium flaming burger with fiery sauce"
-                width={400}
-                height={400}
+                width={500}
+                height={500}
                 className="w-full h-auto object-contain drop-shadow-2xl"
                 priority
               />

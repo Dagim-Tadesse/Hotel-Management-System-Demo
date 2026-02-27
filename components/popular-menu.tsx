@@ -25,7 +25,7 @@ const popularBurgers = [
     id: 3,
     name: 'Spicy Inferno',
     price: '190 ETB',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pngtree-close-up-of-burger-png-image_15955071-removebg-preview-gWiontjBRiJaQAIijaQSRc6XrVpyZL.png',
+    image: '/spicy-inferno.jpg',
     badge: 'Hot Pick',
     isBestSeller: false,
   },

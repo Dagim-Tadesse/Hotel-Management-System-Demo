@@ -64,26 +64,26 @@ export default function FullMenu() {
           ))}
         </div>
 
-        {/* Menu items */}
-        <div className="space-y-3">
+        {/* Menu items - Clean List Style */}
+        <div className="space-y-1 border-t border-border/30">
           {menuCategories[activeCategory].map((item, index) => (
             <div
               key={index}
-              className="bg-card border border-border rounded-xl p-4 flex items-center justify-between hover:border-accent/50 transition-all hover:bg-card/80"
+              className="group px-4 py-4 sm:px-6 flex items-center justify-between border-b border-border/20 hover:bg-white/5 transition-all duration-200 cursor-pointer"
             >
               <div className="flex-1">
                 <div className="flex items-center gap-3">
-                  <h3 className="text-foreground font-semibold text-lg">{item.name}</h3>
+                  <h3 className="text-foreground font-semibold text-base sm:text-lg group-hover:text-accent transition-colors">{item.name}</h3>
                   {item.bestseller && (
-                    <span className="text-xs font-bold bg-accent text-accent-foreground px-2 py-1 rounded-full">
+                    <span className="text-xs font-bold bg-accent text-accent-foreground px-2.5 py-1 rounded-full">
                       BESTSELLER
                     </span>
                   )}
                 </div>
               </div>
-              <div className="flex items-center gap-4">
-                <p className="text-accent font-black text-xl min-w-[100px] text-right">{item.price}</p>
-                <button className="bg-accent text-accent-foreground p-2 rounded-lg hover:scale-110 transition-transform active:scale-95">
+              <div className="flex items-center gap-3 sm:gap-6">
+                <p className="text-accent font-black text-lg sm:text-xl min-w-[80px] text-right">{item.price}</p>
+                <button className="bg-accent/90 text-accent-foreground p-2 sm:p-2.5 rounded-lg hover:bg-accent scale-90 sm:scale-100 hover:scale-110 transition-all active:scale-95">
                   <ShoppingCart size={18} />
                 </button>
               </div>
