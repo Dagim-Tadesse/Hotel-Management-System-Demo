@@ -7,9 +7,6 @@ import { ArrowRight } from 'lucide-react'
 export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Dark gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-secondary via-background to-background"></div>
-      
       {/* Glow effect */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-accent/10 rounded-full blur-3xl"></div>
 
@@ -44,11 +41,11 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-radial from-accent/20 to-transparent rounded-full blur-2xl"></div>
             <div className="relative w-full h-full max-h-96 md:max-h-none flex items-center justify-center">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pngtree-close-up-of-burger-png-image_15955071-JfoxC4F6xJoVVukSiD67HHFJogrQpI.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pngtree-close-up-of-burger-png-image_15955071-removebg-preview-gWiontjBRiJaQAIijaQSRc6XrVpyZL.png"
                 alt="Premium flaming burger with fiery sauce"
                 width={400}
                 height={400}
-                className="w-full h-auto object-contain drop-shadow-2xl animate-bounce"
+                className="w-full h-auto object-contain drop-shadow-2xl"
                 priority
               />
             </div>

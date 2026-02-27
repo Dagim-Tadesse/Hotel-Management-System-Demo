@@ -5,7 +5,7 @@ import { Instagram, Facebook, Phone, Mail } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-secondary border-t border-border">
+    <footer className="border-t border-border/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
@@ -80,7 +80,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center text-muted-foreground text-sm">
-            <p>&copy; 2024 IN-JOY Burger Tulu Dimtu Branch. All rights reserved.</p>
+            <p>&copy; IN-JOY Burger Tulu Dimtu Branch. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-accent transition-colors">Terms of Service</a>
